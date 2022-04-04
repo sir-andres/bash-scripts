@@ -2,7 +2,7 @@
 
 TRASH=$HOME/TRASH
 file="$1"
-archivename="$file".gz
+archivename="$file".gz (archive-$(date "+%Y%m%d").gz)
 
 #check if enought arguments
 
